@@ -1,0 +1,192 @@
+/* Gerais */
+
+body {
+    font: 'Roboto', sans-serif;
+}
+
+.row {
+    margin: 0;
+}
+
+.container {
+    padding: 70px 0px ;
+}
+
+p,li {
+    color: #444;
+    font-size: 14px;
+
+}
+
+/*barra de navegação*/
+
+header, .navbar{
+    background-color: #fff;
+}
+
+#nav-container {
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+#logo{
+    width: 75px;
+}
+
+.navbar-brand{
+    padding: 0;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+}
+
+.navbar-brand:hover{
+    color: rgb(0, 0, 0);
+}
+#navbar-links a{
+    color: rgb(0, 0, 0);
+}
+
+.navbar-expand-log .navbar-nav .nav-link{
+    padding: 1rem .8rem;
+}
+
+
+/*background*/
+.img1 #img12{
+    height: auto;
+    width: auto;
+}
+
+.main-btn{ /* estilização do botão central no slider*/
+    background-color: #65DAf9;
+    color: #fff;
+    text-transform: uppercase;
+    width: 200px;
+    height: 60px;
+    padding: 10px 20px;
+    border-radius: 60px;
+    border: 3px solid transparent;
+    transition: .5s;
+}
+
+.main-btn:hover{
+    text-decoration: none;
+    color: #fff;
+    background-color: transparent;
+    border-color: #65DAf9;
+}
+
+/* sobre a empresa */
+
+#sobre-empresa{  /*cor da sessão sobre empresa*/
+        background-color: #f9f9f9;
+}
+
+.main-title{ /* estilização do titulo da sessão Sobre*/
+        color: #444;
+        margin: 0 0 65px 0;
+        font-size: 40px;
+        text-align: center;
+}
+
+.titulo{ /* estiliza subtitulo da sessão Sobre*/
+    font-size: 17px;
+    color: #444;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+#lista{  /*tirando ponto da lista*/
+    list-style: none;
+    padding-left: 0;
+}
+
+#lista li{ /*espaço entre icone e lista*/
+    line-height: 30px;
+
+}
+
+#lista i{ /*estilizando icone*/
+    color: #65DAf9;
+    margin-right: 15px;
+}
+
+
+
+  #news-btn:hover{
+    background-color: #fff;
+    color: #65DAF9;
+  }
+
+  /*rodapé*/
+  #contato{
+    text-align: center;
+
+  }
+
+  .caixacontato{
+padding-bottom: 50px;
+margin-bottom: 0;
+ }
+
+ .caixacontato i{
+    color: #444;
+    border:solid 1px #444;
+    border-radius: 50%;
+    width: 55px;
+    height: 55px;
+    line-height: 55px;
+    margin-bottom: 20px;
+ }
+
+ .caixacontato p{
+    font-size: 16px;
+ }
+
+ .titulo-contato{
+    font-weight: bold;
+    color: #3ec1d5;
+ }
+
+ #msg-box p {
+    font-size: 22px;
+ }
+
+    .meu-form{
+        width: 600px;
+        height: 80vh;
+        margin-left: auto;
+        margin-right: auto;
+        background-color:#65d9f942;
+        padding: 20px;
+        border-top-left-radius: 30px;
+        border-bottom-right-radius: 30px;
+        box-shadow: 2px 3px 2px  #434849;
+        text-align: center;
+    }
+
+    .meu-form{ 
+        margin-bottom: 10px;
+        align-items: center;
+        }
+
+
+        .meu-form button{
+            font-size: 15px;
+            margin-top: 40px;
+            margin-left: 10px;
+        background-color: rgb(72, 30, 185);
+        }
+
+        .meu-form #email_login, .meu-form #senha_login, .meu-form #nomeuser, .meu-form #cpfuser, .meu-form #emailuser,
+        .meu-form #senha1user, .meu-form #senha2user, 
+        .meu-form #nomedent, .meu-form #cpfdent, .meu-form #cro, .meu-form #emaildent, .meu-form #senha1dent, .meu-form #senha2dent {
+            border: solid 1px #757879;
+            border-radius: 8px;
+            margin-bottom : 10px;
+            margin-left: 10px;
+        }
+
+        .meu-form .label{
+            font: 'Roboto', sans-serif;
+        }
